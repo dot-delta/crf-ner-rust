@@ -1,0 +1,12 @@
+[package]
+name = "crf-named-entity-recognition"
+version = "1.1.0"
+authors = ["xavier"]
+edition = "2018"
+
+[dependencies]
+csv = "1.0.7"
+serde = "1"
+serde_derive = "1"
+rand = "0.6.5"
+crfsuite = "0.2.6"
